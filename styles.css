@@ -1,0 +1,68 @@
+ul{
+    list-style-type: none;
+    padding-left: 0;
+    margin-top:0;
+    margin-bottom: 0;
+}
+#mainbar{
+    display: flex;
+    width: 100%;
+    
+}
+fieldset{
+    width:40%;
+    margin:auto;
+    padding: 0;
+}
+input[type="text"]{
+    flex:7;
+    background-color: rgb(6, 113, 235);
+    border:0;
+    color: white;
+}
+#add{
+    flex:3 !important;
+    border: 0;
+    /* background-color: #121888; */
+}
+li{
+    display: flex;
+    border:1px solid black;
+    
+}
+li sec{
+    flex:7;
+    max-width:70%;
+}
+.gg-trash{
+    margin:auto;
+    border: 0;
+}
+fieldset{
+    padding-bottom: 0;
+}
+button{
+    flex:1;
+    padding: 0;
+    border: 0;
+    background-color: white;
+}
+.downArrow span:before{
+    content: "\2193";
+    color: red;
+}
+.upArrow span:before{
+    content: "\2191";
+    color: green;
+}
+::placeholder{
+    color:white;
+}
+sec{
+    background-color: white;
+}
+
+/* .trash{
+    border-radius: 100%;
+    margin-right:3%
+} */
